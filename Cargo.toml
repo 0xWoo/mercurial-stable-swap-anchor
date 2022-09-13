@@ -1,0 +1,11 @@
+[package]
+name = "mercurial-stable-swap-anchor"
+version = "0.1.0"
+edition = "2021"
+
+description = "Mercurial Stable Swap Anchor Adaptor"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anchor-lang = "0.24.2"
+mercurial_stable_swap_n_pool_instructions = { git = "https://github.com/mercurial-finance/stable-swap-n-pool-instructions" }
